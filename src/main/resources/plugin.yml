@@ -1,0 +1,4 @@
+name: AmongUs
+version: ${project.version}
+main: club.opensource.AmongUs
+api-version: 1.13
