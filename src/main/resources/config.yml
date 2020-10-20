@@ -1,0 +1,8 @@
+rules:
+  start:
+    requiredPlayers: 3 # the number of players required to start a new game
+    impostors: 1 # total number of impostors
+    countdown:
+      time: 10 # time to countdown from upon enough players to begin game
+      voteRatio: 2 # divide total players by this number to get number of votes to initiate countdown
+      title: "&e&l{number}"
