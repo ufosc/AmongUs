@@ -1,4 +1,4 @@
-package club.opensource.game;
+package club.ufopensource.game;
 
 import java.util.ArrayList;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package club.opensource.game;
+package club.ufopensource.game;
 
 public enum GameState {
   LOBBY_WAITING,

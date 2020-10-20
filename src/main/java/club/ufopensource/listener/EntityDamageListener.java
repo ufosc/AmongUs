@@ -1,4 +1,4 @@
-package club.opensource.listener;
+package club.ufopensource.listener;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
