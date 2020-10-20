@@ -1,6 +1,6 @@
-package club.opensource;
+package club.ufopensource;
 
-import club.opensource.game.Team;
+import club.ufopensource.game.Team;
 import com.google.common.io.ByteStreams;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -69,7 +69,7 @@ public final class AmongUs extends JavaPlugin {
       for (File f : files != null ? files : new File[0]) {
         if (f.getName().endsWith(".class"))
           getServer().getPluginManager().registerEvents(
-                  (Listener) Class.forName("club.opensource.listener" + "." + f.getName().substring(0, f.getName().length() - 6)).getDeclaredConstructor().newInstance(),
+                  (Listener) Class.forName("club.ufopensource.listener" + "." + f.getName().substring(0, f.getName().length() - 6)).getDeclaredConstructor().newInstance(),
                   this);
       }
     }
