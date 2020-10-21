@@ -2,14 +2,16 @@ package club.ufopensource.game.task;
 
 import org.bukkit.Location;
 
+import java.util.UUID;
+
 public abstract class Task implements ITask {
 
   private boolean isActive;
-  private Location location;
+  private UUID completer;
 
-  public Task(Location location) {
-    isActive = false;
-    this.location = location;
+  public Task(UUID completer) {
+    this.isActive = false;
+    this.completer = completer;
   }
 
   @Override
@@ -18,7 +20,7 @@ public abstract class Task implements ITask {
   }
 
   @Override
-  public Location getLocation() {
-    return location;
+  public UUID getCompleter() {
+    return completer;
   }
 }
