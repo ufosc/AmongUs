@@ -1,4 +1,4 @@
-# Contributing to swampymud
+# Contributing to AmongUs MC
 
 Thank you for helping out with the Open Source Club's AmongUs project!
 
